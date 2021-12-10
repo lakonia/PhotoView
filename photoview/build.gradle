@@ -22,9 +22,9 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                group = 'com.github.chrisbanes'
+                group = 'com.github.lakonia'
                 artifactId = 'PhotoView'
-                version = '2.3.0'
+                version = '2.4.0'
 
                 // Adds javadocs and sources as separate jars.
                 artifact androidJavadocsJar
