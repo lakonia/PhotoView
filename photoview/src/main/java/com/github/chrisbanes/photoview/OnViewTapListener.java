@@ -12,5 +12,8 @@ public interface OnViewTapListener {
      * @param x    - where the user tapped from the left of the View.
      * @param y    - where the user tapped from the top of the View.
      */
-    void onViewTap(View view, float x, float y);
+    void onSingleTap(View view, float x, float y);
+    void onDoubleTap(View view, float x, float y);
+    void onViewTapLeft(View view);
+    void onViewTapRight(View view);
 }
